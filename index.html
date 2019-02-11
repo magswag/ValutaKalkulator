@@ -3,13 +3,20 @@
 <title>Valuta-kalkulator</title>
 </head>
 <style>
-
+  body {
+    background:grey;
+  }
+.card {
+  border-radius: 10px;
+  background:#fff;
+  }
 </style>
 <body>
-  <input id="input_valuta" type="number" placeholder="Valuta"> </input>
-  <button onclick="calculate()">Kalkuler</button>
-  <p id="result">Resultat</p>
-  
+  <div class="card">
+   <input id="input_valuta" type="number" placeholder="Valuta"> </input>
+   <button onclick="calculate()">Kalkuler</button>
+   <p id="result">Resultat</p>
+  </div>
 </body>
 <script>
 function calculate() {
